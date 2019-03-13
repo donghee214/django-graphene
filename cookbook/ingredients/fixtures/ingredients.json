@@ -1,0 +1,92 @@
+[
+    {
+        "model": "recipes.recipe",
+        "pk": 1,
+        "fields": {
+            "title": "Cheerios With a Shot of Vermouth",
+            "instructions": "https://xkcd.com/720/"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 2,
+        "fields": {
+            "title": "Quail Eggs in Whipped Cream and MSG",
+            "instructions": "https://xkcd.com/720/"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 3,
+        "fields": {
+            "title": "Deep Fried Skittles",
+            "instructions": "https://xkcd.com/720/"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 4,
+        "fields": {
+            "title": "Newt ala Doritos",
+            "instructions": "https://xkcd.com/720/"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 5,
+        "fields": {
+            "title": "Fruit Salad",
+            "instructions": "Chop up and add together"
+        }
+    },
+    {
+        "model": "ingredients.category",
+        "pk": 1,
+        "fields": {
+            "name": "Dairy"
+        }
+    },
+    {
+        "model": "ingredients.category",
+        "pk": 2,
+        "fields": {
+            "name": "Meat"
+        }
+    },
+    {
+        "model": "ingredients.ingredient",
+        "pk": 1,
+        "fields": {
+            "name": "Eggs",
+            "notes": "Good old eggs",
+            "category": 1
+        }
+    },
+    {
+        "model": "ingredients.ingredient",
+        "pk": 2,
+        "fields": {
+            "name": "Milk",
+            "notes": "Comes from a cow",
+            "category": 1
+        }
+    },
+    {
+        "model": "ingredients.ingredient",
+        "pk": 3,
+        "fields": {
+            "name": "Beef",
+            "notes": "Much like milk, this comes from a cow",
+            "category": 2
+        }
+    },
+    {
+        "model": "ingredients.ingredient",
+        "pk": 4,
+        "fields": {
+            "name": "Chicken",
+            "notes": "Definitely doesn't come from a cow",
+            "category": 2
+        }
+    }
+]
